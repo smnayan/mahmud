@@ -1,0 +1,78 @@
+body{
+	font-size: 16px;
+	color: #fff;
+	background-color: #fff;
+	font-family: 'Oxygen', sans-serif;
+
+}
+/* CSS for header section*/
+#header-nav{
+	background-color: #555;
+	border: 0;
+	border-radius: 0;
+}
+.navbar-brand{
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+.navbar-brand h1{
+	font-family: 'Lora', serif;
+	color: #fff;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+	text-decoration: none;
+}
+#nav-list{
+	margin-top: 10px;
+}
+#nav-list a{
+	color: #fff;
+	text-align: center;
+}
+#nav-list a:hover{
+	background: maroon;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 1px solid #fff;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+#main-content h1{
+	color: #000;
+	padding-bottom: 20px;
+}
+#menu-tile{
+	height: 400px;
+	width: 100%;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	border: 2px solid #fff;
+	background-color: #555;
+	overflow: hidden;
+}
+#menu-tile p{
+	padding: 10px;
+	text-align: justify;
+}
+.visible-xs {
+	float: right;
+	background-color: #fff;
+	padding: 5px;
+}
+.visible-xs a{
+	color: #000;
+	text-decoration: none;
+}
+.visible-xs a:hover{
+	background-color: #555;
+	color: #fff;
+}
