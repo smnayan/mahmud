@@ -63,11 +63,6 @@ body{
 	padding: 10px;
 	text-align: justify;
 }
-.visible-xs {
-	float: right;
-	background-color: #fff;
-	padding: 5px;
-}
 .visible-xs a{
 	color: #000;
 	text-decoration: none;
